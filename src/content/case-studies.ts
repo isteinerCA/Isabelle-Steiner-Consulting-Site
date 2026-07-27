@@ -72,7 +72,7 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
     coverImage: "/case-studies/baby-brand-growth.png",
     coverImageAlt:
-      "Simplified full-funnel channel testing roadmap across TikTok, Reddit, paid search, and new product launches",
+      "Full-funnel channel testing roadmap with staggered phases per channel: TikTok test-to-scale, Reddit test-to-optimize, paid search optimize-to-scale, and new product pre-launch-to-scale",
   },
   {
     slug: "spellquest",
