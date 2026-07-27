@@ -35,7 +35,7 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
     coverImage: "/case-studies/ai-marketing-reporting-copilot.png",
     coverImageAlt:
-      "Diagram showing campaign and landing page data combining into AI-generated insights, with callouts for top performer, broken landing page, and next-step recommendation",
+      "Diagram showing campaign and landing page data combining into AI-generated insights, with callouts for top performer, landing page engagement insight, and next-step recommendation",
   },
   {
     slug: "marketing-forecasting-framework",
@@ -72,7 +72,7 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
     coverImage: "/case-studies/baby-brand-growth.png",
     coverImageAlt:
-      "Stylized quarterly channel testing calendar spanning TikTok, Reddit, paid search, influencer seeding, and new product launches",
+      "Simplified full-funnel channel testing roadmap across TikTok, Reddit, paid search, and new product launches",
   },
   {
     slug: "spellquest",
