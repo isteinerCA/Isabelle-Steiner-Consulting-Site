@@ -35,7 +35,7 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
     coverImage: "/case-studies/ai-marketing-reporting-copilot.png",
     coverImageAlt:
-      "Diagram showing campaign and landing page data combining into AI-generated insights, with callouts for top performer, landing page engagement insight, and next-step recommendation",
+      "Cropped excerpt of a weekly campaign report with a landing page insights table and a highlighted key finding in the analysis text",
   },
   {
     slug: "marketing-forecasting-framework",
@@ -51,7 +51,7 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
     coverImage: "/case-studies/marketing-forecasting-framework.png",
     coverImageAlt:
-      "Stylized historical monthly forecasting model with anonymized placeholder values and channel contribution columns",
+      "Spreadsheet screenshot of the appointment forecast model with monthly rows and channel contribution columns",
   },
   {
     slug: "baby-brand-growth",
@@ -72,7 +72,7 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
     coverImage: "/case-studies/baby-brand-growth.png",
     coverImageAlt:
-      "Full-funnel channel testing roadmap with staggered phases per channel: TikTok test-to-scale, Reddit test-to-optimize, paid search optimize-to-scale, and new product pre-launch-to-scale",
+      "Kanban-style project board tracking TikTok, Reddit, paid search, and new product launch across Test, Optimize, and Scale columns",
   },
   {
     slug: "spellquest",
@@ -125,7 +125,7 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
     coverImage: "/case-studies/telehealth-growth.png",
     coverImageAlt:
-      "Setup checklist for ad accounts, tracking, first campaign, and dashboard, alongside a bar chart showing 3x quarter-over-quarter growth",
+      "Project setup checklist showing completed foundational tasks alongside a quarterly growth dashboard widget with a 3x QoQ badge",
   },
   {
     slug: "interim-executive-leadership",
