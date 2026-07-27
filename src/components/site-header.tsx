@@ -12,7 +12,7 @@ export function SiteHeader() {
     <header className="border-b border-[var(--color-border)] bg-[var(--color-cream)]">
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-6 px-6 py-5">
         <Link href="/" className="no-underline">
-          <Wordmark className="text-xl" />
+          <Wordmark className="text-2xl" />
         </Link>
         <nav className="flex items-center gap-6 text-sm">
           {navLinks.map((link) => {
