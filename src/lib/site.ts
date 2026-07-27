@@ -3,8 +3,7 @@ export const site = {
   title: "Growth & Strategy Advisor",
   tagline: "Helping companies build, scale, and optimize growth.",
   domain: "isabellesteiner.com",
-  /** Update when you set up your inbox */
-  contactEmail: "hello@isabellesteiner.com",
+  contactEmail: "isabelle@isabelles.net",
   linkedInUrl: "https://www.linkedin.com/in/isabelle-steiner-26b3522/",
   description:
     "Senior Growth & Strategy Advisor combining executive marketing experience with AI-enabled problem solving and rapid product prototyping.",

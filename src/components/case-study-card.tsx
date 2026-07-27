@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CategoryTag } from "@/components/category-tag";
 import type { CaseStudy } from "@/content/case-studies";
 
 type CaseStudyCardProps = {
@@ -10,9 +11,7 @@ export function CaseStudyCard({ study }: CaseStudyCardProps) {
     <article className="card flex h-full flex-col p-6 transition-colors hover:border-[var(--color-ink-muted)]">
       <div className="mb-4 flex flex-wrap gap-2">
         {study.categories.slice(0, 3).map((category) => (
-          <span key={category} className="category-tag">
-            {category}
-          </span>
+          <CategoryTag key={category} label={category} />
         ))}
       </div>
       <h3 className="mb-3 text-xl">

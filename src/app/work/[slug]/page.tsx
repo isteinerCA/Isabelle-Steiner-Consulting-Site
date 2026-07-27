@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { CategoryTag } from "@/components/category-tag";
 import { ContactSection } from "@/components/contact-section";
 import { caseStudies, getCaseStudy } from "@/content/case-studies";
 import { site } from "@/lib/site";
@@ -46,9 +47,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
 
       <div className="mb-6 flex flex-wrap gap-2">
         {study.categories.map((category) => (
-          <span key={category} className="category-tag">
-            {category}
-          </span>
+          <CategoryTag key={category} label={category} />
         ))}
       </div>
 
@@ -74,9 +73,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
           <h2 className="section-label mb-3">Skills</h2>
           <div className="flex flex-wrap gap-2">
             {study.skills.map((skill) => (
-              <span key={skill} className="category-tag">
-                {skill}
-              </span>
+              <CategoryTag key={skill} label={skill} />
             ))}
           </div>
         </section>
