@@ -8,6 +8,9 @@ export type CaseStudy = {
   skills: string[];
   featured?: boolean;
   externalUrl?: string;
+  /** Real product screenshot, when available. Falls back to a generated cover otherwise. */
+  coverImage?: string;
+  coverImageAlt?: string;
 };
 
 export const caseStudies: CaseStudy[] = [
@@ -80,6 +83,9 @@ export const caseStudies: CaseStudy[] = [
       "Prompt Engineering",
     ],
     externalUrl: "https://spellquest-french.ai.studio/",
+    coverImage: "/product-lab/spellquest.png",
+    coverImageAlt:
+      "SpellQuest French grammar learning app with gamified repair spell interface",
   },
   {
     slug: "groundwork",
@@ -93,6 +99,9 @@ export const caseStudies: CaseStudy[] = [
       "Launched online tool to make educational program discovery more efficient and more transparent.",
     skills: ["Product Strategy", "UX", "AI", "Education"],
     externalUrl: "https://groundwork-omega-flax.vercel.app/",
+    coverImage: "/product-lab/groundwork.png",
+    coverImageAlt:
+      "Groundwork summer programs explorer with filters and program comparison cards",
   },
   {
     slug: "telehealth-growth",

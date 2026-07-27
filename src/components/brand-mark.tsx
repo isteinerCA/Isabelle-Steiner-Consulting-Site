@@ -1,13 +1,14 @@
 type BrandMarkProps = {
   className?: string;
   size?: number;
+  style?: React.CSSProperties;
 };
 
 /**
  * Abstract mark: two offset nodes converge into a level pair,
  * representing messy inputs resolving into a clear outcome.
  */
-export function BrandMark({ className = "", size = 22 }: BrandMarkProps) {
+export function BrandMark({ className = "", size = 22, style }: BrandMarkProps) {
   return (
     <svg
       width={size}
@@ -16,6 +17,7 @@ export function BrandMark({ className = "", size = 22 }: BrandMarkProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
+      style={style}
       aria-hidden="true"
     >
       <line
