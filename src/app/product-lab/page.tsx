@@ -16,32 +16,29 @@ export default function ProductLabPage() {
       <h1 className="mb-4 max-w-2xl text-4xl">Projects I am exploring</h1>
       <p className="mb-12 max-w-2xl text-[var(--color-ink-muted)]">
         Side projects where I combine product design, AI-assisted development,
-        and real-world problems—often in education and decision-making.
+        and real-world problems. Check these out.
       </p>
 
       <div className="grid gap-8">
         {productLabProjects.map((project) => (
           <article key={project.title} className="card overflow-hidden">
-            <div className="relative aspect-[16/9] border-b border-[var(--color-border)] bg-[var(--color-cream-dark)]">
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative block aspect-[16/9] border-b border-[var(--color-border)] bg-[var(--color-cream-dark)] no-underline"
+              aria-label={`Open ${project.title}`}
+            >
               <Image
                 src={project.image}
                 alt={project.imageAlt}
                 fill
-                className="object-cover object-top"
+                className="object-cover object-top transition-opacity hover:opacity-95"
                 sizes="(max-width: 1024px) 100vw, 960px"
               />
-            </div>
+            </a>
             <div className="p-8">
-              <h2 className="mb-3 text-2xl">
-                <a
-                  href={project.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="no-underline hover:text-[var(--color-accent)]"
-                >
-                  {project.title}
-                </a>
-              </h2>
+              <h2 className="mb-3 text-2xl">{project.title}</h2>
               <p className="mb-6 text-[var(--color-ink-muted)]">
                 {project.summary}
               </p>
@@ -51,23 +48,14 @@ export default function ProductLabPage() {
                   {project.learned}
                 </p>
               </div>
-              <p className="mt-5">
-                <a
-                  href={project.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm font-medium"
-                >
-                  Visit project →
-                </a>
-                {" · "}
+              <div className="mt-6">
                 <Link
                   href={`/work/${project.slug}`}
-                  className="text-sm font-medium"
+                  className="btn-secondary no-underline"
                 >
-                  Read case study
+                  Read case study →
                 </Link>
-              </p>
+              </div>
             </div>
           </article>
         ))}

@@ -21,6 +21,16 @@ export default function AboutPage() {
               <p key={paragraph.slice(0, 32)}>{paragraph}</p>
             ))}
           </div>
+          <p className="mt-8">
+            <a
+              href={site.linkedInUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium"
+            >
+              Connect on LinkedIn →
+            </a>
+          </p>
         </div>
       </div>
 
