@@ -125,7 +125,7 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
     coverImage: "/case-studies/telehealth-growth.png",
     coverImageAlt:
-      "Project setup checklist showing completed foundational tasks alongside a quarterly growth dashboard widget with a 3x QoQ badge",
+      "Project setup checklist showing completed foundational tasks alongside a quarterly growth dashboard widget with bars compounding 3x each quarter",
   },
   {
     slug: "interim-executive-leadership",
