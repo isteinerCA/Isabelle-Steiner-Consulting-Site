@@ -50,7 +50,10 @@ export const aboutContent = {
 export const productLabProjects = [
   {
     title: "SpellQuest",
+    slug: "spellquest",
     url: "https://spellquest-french.ai.studio/",
+    image: "/product-lab/spellquest.png",
+    imageAlt: "SpellQuest French grammar learning app with gamified repair spell interface",
     summary:
       "An interactive learning application that teaches French spelling through progressive discovery, gamification, and immediate feedback.",
     learned:
@@ -58,7 +61,10 @@ export const productLabProjects = [
   },
   {
     title: "Groundwork",
+    slug: "groundwork",
     url: "https://groundwork-omega-flax.vercel.app/",
+    image: "/product-lab/groundwork.png",
+    imageAlt: "Groundwork summer programs explorer with filters and program comparison cards",
     summary:
       "An AI-assisted prototype that organizes educational options into a structured decision-making experience rather than a traditional directory.",
     learned:

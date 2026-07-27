@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ContactSection } from "@/components/contact-section";
 import { productLabProjects, site } from "@/lib/site";
@@ -20,46 +21,54 @@ export default function ProductLabPage() {
 
       <div className="grid gap-8">
         {productLabProjects.map((project) => (
-          <article key={project.title} className="card p-8">
-            <div className="mb-6 flex aspect-[16/9] items-center justify-center rounded-[var(--radius-md)] border border-dashed border-[var(--color-border)] bg-[var(--color-cream-dark)]">
-              <span className="text-sm text-[var(--color-ink-muted)]">
-                Screenshot placeholder — {project.title}
-              </span>
+          <article key={project.title} className="card overflow-hidden">
+            <div className="relative aspect-[16/9] border-b border-[var(--color-border)] bg-[var(--color-cream-dark)]">
+              <Image
+                src={project.image}
+                alt={project.imageAlt}
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 1024px) 100vw, 960px"
+              />
             </div>
-            <h2 className="mb-3 text-2xl">
-              <a
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="no-underline hover:text-[var(--color-accent)]"
-              >
-                {project.title}
-              </a>
-            </h2>
-            <p className="mb-6 text-[var(--color-ink-muted)]">{project.summary}</p>
-            <div className="rounded-[var(--radius-md)] bg-[var(--color-cream-dark)] p-5">
-              <p className="section-label mb-2">What I learned</p>
-              <p className="text-sm text-[var(--color-ink-muted)]">
-                {project.learned}
+            <div className="p-8">
+              <h2 className="mb-3 text-2xl">
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="no-underline hover:text-[var(--color-accent)]"
+                >
+                  {project.title}
+                </a>
+              </h2>
+              <p className="mb-6 text-[var(--color-ink-muted)]">
+                {project.summary}
+              </p>
+              <div className="rounded-[var(--radius-md)] bg-[var(--color-cream-dark)] p-5">
+                <p className="section-label mb-2">What I learned</p>
+                <p className="text-sm text-[var(--color-ink-muted)]">
+                  {project.learned}
+                </p>
+              </div>
+              <p className="mt-5">
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-medium"
+                >
+                  Visit project →
+                </a>
+                {" · "}
+                <Link
+                  href={`/work/${project.slug}`}
+                  className="text-sm font-medium"
+                >
+                  Read case study
+                </Link>
               </p>
             </div>
-            <p className="mt-5">
-              <a
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm font-medium"
-              >
-                Visit project →
-              </a>
-              {" · "}
-              <Link
-                href={`/work/${project.title === "SpellQuest" ? "spellquest" : "groundwork"}`}
-                className="text-sm font-medium"
-              >
-                Read case study
-              </Link>
-            </p>
           </article>
         ))}
       </div>

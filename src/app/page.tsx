@@ -1,10 +1,7 @@
 import Link from "next/link";
 import { CaseStudyCard } from "@/components/case-study-card";
 import { ContactSection } from "@/components/contact-section";
-import {
-  caseStudies,
-  getFeaturedCaseStudies,
-} from "@/content/case-studies";
+import { getFeaturedCaseStudies } from "@/content/case-studies";
 import {
   credibilityLine,
   featuredWorkIntro,
@@ -57,7 +54,7 @@ export default function HomePage() {
             href="/work"
             className="shrink-0 text-sm font-medium no-underline hover:underline"
           >
-            View all work →
+            View all examples →
           </Link>
         </div>
         <div className="grid gap-6 md:grid-cols-2">
@@ -65,14 +62,6 @@ export default function HomePage() {
             <CaseStudyCard key={study.slug} study={study} />
           ))}
         </div>
-        <p className="mt-6 text-sm text-[var(--color-ink-muted)]">
-          Plus{" "}
-          {caseStudies.length - featured.length} more in{" "}
-          <Link href="/work" className="underline">
-            Featured Work
-          </Link>
-          , including product lab projects and interim leadership.
-        </p>
       </section>
 
       <ContactSection />

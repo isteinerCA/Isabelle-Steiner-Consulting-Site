@@ -8,7 +8,7 @@ type ContactSectionProps = {
 
 export function ContactSection({
   heading = "Let's talk",
-  description = "If you're building, scaling, or rethinking growth—and want a partner who combines strategy with hands-on execution—I'd love to hear from you.",
+  description = "If you're building, scaling, or rethinking growth, and you are looking for a partner who combines strategy with hands-on execution, I'd love to hear from you.",
   className = "",
 }: ContactSectionProps) {
   return (
