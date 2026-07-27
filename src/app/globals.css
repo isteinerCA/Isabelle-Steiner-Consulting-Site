@@ -173,8 +173,8 @@ a:hover {
 }
 
 .tag-indigo {
-  background: #e8ebf8;
-  color: #3d4e8a;
+  background: #ddd6f0;
+  color: #4a3a7a;
 }
 
 .tag-sage {
@@ -200,6 +200,11 @@ a:hover {
 .tag-sky {
   background: #e8edf8;
   color: #3a5088;
+}
+
+.tag-gold {
+  background: #f5eed8;
+  color: #7a5c1e;
 }
 
 .pillar-card {

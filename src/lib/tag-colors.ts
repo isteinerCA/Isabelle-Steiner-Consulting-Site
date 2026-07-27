@@ -10,7 +10,8 @@ export type TagColorKey =
   | "slate"
   | "coral"
   | "plum"
-  | "sky";
+  | "sky"
+  | "gold";
 
 /** Same label → same color everywhere on the site */
 const tagColorMap: Record<string, TagColorKey> = {
@@ -33,7 +34,7 @@ const tagColorMap: Record<string, TagColorKey> = {
 
   // Domains
   Healthcare: "green",
-  Education: "sky",
+  Education: "gold",
   "E-Commerce": "amber",
   "Baby Products": "amber",
 

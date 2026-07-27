@@ -65,7 +65,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "spellquest",
     title: "SpellQuest",
-    categories: ["Product Lab", "Education"],
+    categories: ["Product Lab", "AI", "Education"],
     problem:
       "Learning French spelling requires mastering grammatical rules that are complex, interconnected, and rarely taught systematically. Practicing these rules is often repetitive and frustrating. I set out to create a more engaging and structured way to learn them.",
     approach:
@@ -84,7 +84,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "groundwork",
     title: "Groundwork",
-    categories: ["Product Lab", "Education"],
+    categories: ["Product Lab", "AI", "Education"],
     problem:
       "Families researching educational opportunities often struggle to compare programs across many dimensions and make informed decisions.",
     approach:
