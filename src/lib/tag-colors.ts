@@ -59,9 +59,3 @@ const tagColorMap: Record<string, TagColorKey> = {
 export function getTagColorKey(label: string): TagColorKey {
   return tagColorMap[label] ?? "blue";
 }
-
-export const pillarAccents: Record<string, TagColorKey> = {
-  Build: "blue",
-  Optimize: "teal",
-  Invent: "violet",
-};

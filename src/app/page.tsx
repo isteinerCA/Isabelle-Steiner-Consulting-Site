@@ -9,7 +9,6 @@ import {
   site,
   todayLine,
 } from "@/lib/site";
-import { pillarAccents } from "@/lib/tag-colors";
 
 export default function HomePage() {
   const featured = getFeaturedCaseStudies();
@@ -29,10 +28,7 @@ export default function HomePage() {
         <p className="section-label mb-8">How I help</p>
         <div className="grid gap-6 md:grid-cols-3">
           {pillars.map((pillar) => (
-            <article
-              key={pillar.title}
-              className={`card pillar-card pillar-card--${pillarAccents[pillar.title]} p-6`}
-            >
+            <article key={pillar.title} className="card pillar-card p-6">
               <p className="section-label mb-2">{pillar.audience}</p>
               <h2 className="mb-3 text-2xl">{pillar.title}</h2>
               <p className="text-sm text-[var(--color-ink-muted)]">
