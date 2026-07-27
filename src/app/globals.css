@@ -158,8 +158,8 @@ a:hover {
 }
 
 .tag-green {
-  background: #e4f0e6;
-  color: #2f5c3a;
+  background: #d8eddf;
+  color: #1a5c38;
 }
 
 .tag-amber {
@@ -195,6 +195,11 @@ a:hover {
 .tag-plum {
   background: #f0e6f0;
   color: #6a4568;
+}
+
+.tag-sky {
+  background: #e8edf8;
+  color: #3a5088;
 }
 
 .pillar-card {

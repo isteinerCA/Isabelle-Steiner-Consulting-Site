@@ -9,12 +9,13 @@ export type TagColorKey =
   | "sage"
   | "slate"
   | "coral"
-  | "plum";
+  | "plum"
+  | "sky";
 
 /** Same label → same color everywhere on the site */
 const tagColorMap: Record<string, TagColorKey> = {
   // Engagement type
-  Client: "blue",
+  "Client Work": "blue",
   "Product Lab": "indigo",
   Leadership: "slate",
   Startup: "coral",
@@ -32,7 +33,7 @@ const tagColorMap: Record<string, TagColorKey> = {
 
   // Domains
   Healthcare: "green",
-  Education: "sage",
+  Education: "sky",
   "E-Commerce": "amber",
   "Baby Products": "amber",
 

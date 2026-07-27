@@ -14,7 +14,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "ai-marketing-reporting-copilot",
     title: "AI Marketing Reporting Copilot",
-    categories: ["Client", "AI", "Marketing Analytics", "E-Commerce"],
+    categories: ["Client Work", "AI", "Marketing Analytics", "E-Commerce"],
     problem:
       "Marketing performance data lived across Google Analytics and Meta. Weekly reporting required manual exports, spreadsheet merges, and hours of analysis before insights could be shared with leadership.",
     approach:
@@ -34,7 +34,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "marketing-forecasting-framework",
     title: "Marketing Forecasting Framework",
-    categories: ["Client", "Analytics", "Healthcare"],
+    categories: ["Client Work", "Analytics", "Healthcare"],
     problem:
       "Leadership lacked a reliable way to translate marketing performance into patient exam forecasts.",
     approach:
@@ -47,7 +47,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "baby-brand-growth",
     title: "Scaling Growth for a Baby Brand",
-    categories: ["Client", "Growth Strategy", "E-Commerce", "Baby Products"],
+    categories: ["Client Work", "Growth Strategy", "E-Commerce", "Baby Products"],
     problem:
       "A rapidly growing consumer brand needed to expand marketing while maintaining efficiency across an increasingly complex portfolio.",
     approach:
@@ -97,7 +97,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "telehealth-growth",
     title: "From Zero to 3× Growth",
-    categories: ["Client", "Startup", "Healthcare"],
+    categories: ["Client Work", "Startup", "Healthcare"],
     problem:
       "A telehealth startup needed to establish digital customer acquisition from scratch.",
     approach:
