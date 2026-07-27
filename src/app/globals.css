@@ -8,6 +8,7 @@
   --color-accent: #2f6f68;
   --color-accent-hover: #245a54;
   --color-accent-soft: #e8f1ef;
+  --color-wordmark-dark: #1f2937;
   --color-border: #e2ddd5;
   --color-surface: #ffffff;
 
@@ -304,6 +305,18 @@ button:focus-visible,
 
 .pillar-card {
   border-top: 3px solid var(--color-accent);
+}
+
+.wordmark {
+  font-weight: 500;
+}
+
+.wordmark-dark {
+  color: var(--color-wordmark-dark);
+}
+
+.wordmark-accent {
+  color: var(--color-accent);
 }
 
 .nav-link {

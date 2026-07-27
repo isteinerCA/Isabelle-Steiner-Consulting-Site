@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BrandMark } from "@/components/brand-mark";
-import { navLinks, site } from "@/lib/site";
+import { Wordmark } from "@/components/wordmark";
+import { navLinks } from "@/lib/site";
 
 export function SiteHeader() {
   const pathname = usePathname();
@@ -11,12 +11,8 @@ export function SiteHeader() {
   return (
     <header className="border-b border-[var(--color-border)] bg-[var(--color-cream)]">
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-6 px-6 py-5">
-        <Link
-          href="/"
-          className="flex items-center gap-2.5 no-underline hover:text-[var(--color-ink)]"
-        >
-          <BrandMark className="text-[var(--color-accent)]" />
-          <span className="font-serif text-xl tracking-tight">{site.name}</span>
+        <Link href="/" className="no-underline">
+          <Wordmark className="text-xl" />
         </Link>
         <nav className="flex items-center gap-6 text-sm">
           {navLinks.map((link) => {
