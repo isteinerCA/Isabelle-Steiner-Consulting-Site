@@ -123,6 +123,9 @@ export const caseStudies: CaseStudy[] = [
     outcome: "Enabled three consecutive quarters of 3× growth.",
     skills: ["Startup Growth", "Acquisition", "Analytics", "Go-to-Market"],
     featured: true,
+    coverImage: "/case-studies/telehealth-growth.png",
+    coverImageAlt:
+      "Setup checklist for ad accounts, tracking, first campaign, and dashboard, alongside a bar chart showing 3x quarter-over-quarter growth",
   },
   {
     slug: "interim-executive-leadership",
