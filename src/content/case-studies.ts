@@ -70,6 +70,9 @@ export const caseStudies: CaseStudy[] = [
       "Paid Media",
     ],
     featured: true,
+    coverImage: "/case-studies/baby-brand-growth.png",
+    coverImageAlt:
+      "Stylized quarterly channel testing calendar spanning TikTok, Reddit, paid search, influencer seeding, and new product launches",
   },
   {
     slug: "spellquest",
