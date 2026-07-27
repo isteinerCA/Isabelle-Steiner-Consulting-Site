@@ -33,6 +33,9 @@ export const caseStudies: CaseStudy[] = [
       "Product Design",
     ],
     featured: true,
+    coverImage: "/case-studies/ai-marketing-reporting-copilot.png",
+    coverImageAlt:
+      "Stylized weekly campaign analysis report with anonymized placeholder metrics",
   },
   {
     slug: "marketing-forecasting-framework",
