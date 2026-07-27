@@ -95,7 +95,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
       <div className="mt-16">
         <ContactSection
           heading="Have a similar challenge?"
-          description={`If ${study.title.toLowerCase()} resonates with something you're working on, I'd be happy to discuss how I can help.`}
+          description="If this project resonates with something you're working on, I'd be happy to discuss how I can help."
         />
       </div>
     </div>
