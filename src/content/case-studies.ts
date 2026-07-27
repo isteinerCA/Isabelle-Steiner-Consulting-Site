@@ -137,6 +137,9 @@ export const caseStudies: CaseStudy[] = [
       "Stepped into VP and Head of Growth roles, leading teams, improving reporting, guiding CRM strategy, forecasting demand, and supporting executive decision-making.",
     outcome:
       "Maintained continuity while introducing stronger measurement and strategic planning processes.",
+    coverImage: "/case-studies/interim-executive-leadership.png",
+    coverImageAlt:
+      "Internal team tool showing a growth team org chart alongside a demand forecast widget and weekly leadership cadence",
     skills: [
       "Executive Leadership",
       "Team Management",
