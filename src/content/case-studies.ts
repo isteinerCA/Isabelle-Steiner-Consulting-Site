@@ -49,6 +49,9 @@ export const caseStudies: CaseStudy[] = [
       "Improved visibility into growth opportunities and provided a framework for more informed marketing investment decisions.",
     skills: ["Forecasting", "Analytics", "Measurement", "Executive Strategy"],
     featured: true,
+    coverImage: "/case-studies/marketing-forecasting-framework.png",
+    coverImageAlt:
+      "Stylized historical monthly forecasting model with anonymized placeholder values and channel contribution columns",
   },
   {
     slug: "baby-brand-growth",
