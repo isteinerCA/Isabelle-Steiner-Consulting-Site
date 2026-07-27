@@ -35,7 +35,7 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
     coverImage: "/case-studies/ai-marketing-reporting-copilot.png",
     coverImageAlt:
-      "Stylized weekly campaign analysis report with anonymized placeholder metrics",
+      "Diagram showing campaign and landing page data combining into AI-generated insights, with callouts for top performer, broken landing page, and next-step recommendation",
   },
   {
     slug: "marketing-forecasting-framework",
