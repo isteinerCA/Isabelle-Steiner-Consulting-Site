@@ -35,7 +35,7 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
     coverImage: "/case-studies/ai-marketing-reporting-copilot.png",
     coverImageAlt:
-      "Weekly campaign analysis report showing a landing page insights table broken out by channel (Meta, TikTok, Google PMax) with impressions, sessions, top page, and engagement",
+      "Weekly campaign analysis report showing a landing page insights table broken out by channel (Meta, TikTok, Google PMax) with impressions, clicks, top page, and engagement",
   },
   {
     slug: "telehealth-growth",
