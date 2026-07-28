@@ -50,7 +50,7 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
     coverImage: "/case-studies/telehealth-growth.png",
     coverImageAlt:
-      "Project setup checklist showing completed foundational tasks alongside a quarterly growth dashboard widget with bars compounding 3x each quarter",
+      "Project setup checklist showing completed foundational tasks alongside a quarterly growth dashboard widget with three bars in exact 1:3:9 proportions across Q1, Q2, and Q3",
   },
   {
     slug: "baby-brand-growth",
