@@ -132,7 +132,7 @@ export const caseStudies: CaseStudy[] = [
     title: "Interim Executive Leadership",
     categories: ["Leadership", "E-Commerce"],
     problem:
-      "Two companies needed experienced executive marketing leadership during maternity leaves while maintaining business momentum.",
+      "Three companies needed experienced executive marketing leadership during maternity leaves while maintaining business momentum.",
     approach:
       "Stepped into VP and Head of Growth roles, leading teams, improving reporting, guiding CRM strategy, forecasting demand, and supporting executive decision-making.",
     outcome:
