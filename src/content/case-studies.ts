@@ -77,7 +77,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "spellquest",
     title: "SpellQuest",
-    categories: ["Product Lab", "AI", "Education"],
+    categories: ["Product Sandbox", "AI", "Education"],
     problem:
       "Learning French spelling requires mastering grammatical rules that are complex, interconnected, and rarely taught systematically. Practicing these rules is often repetitive and frustrating. I set out to create a more engaging and structured way to learn them.",
     approach:
@@ -92,14 +92,14 @@ export const caseStudies: CaseStudy[] = [
       "Prompt Engineering",
     ],
     externalUrl: "https://spellquest-french.ai.studio/",
-    coverImage: "/product-lab/spellquest.png",
+    coverImage: "/product-sandbox/spellquest.png",
     coverImageAlt:
       "SpellQuest French grammar learning app with gamified repair spell interface",
   },
   {
     slug: "groundwork",
     title: "Groundwork",
-    categories: ["Product Lab", "AI", "Education"],
+    categories: ["Product Sandbox", "AI", "Education"],
     problem:
       "Families researching educational opportunities often struggle to compare programs across many dimensions and make informed decisions.",
     approach:
@@ -108,7 +108,7 @@ export const caseStudies: CaseStudy[] = [
       "Launched online tool to make educational program discovery more efficient and more transparent.",
     skills: ["Product Strategy", "UX", "AI", "Education"],
     externalUrl: "https://groundwork-omega-flax.vercel.app/",
-    coverImage: "/product-lab/groundwork.png",
+    coverImage: "/product-sandbox/groundwork.png",
     coverImageAlt:
       "Groundwork summer programs explorer with filters and program comparison cards",
   },

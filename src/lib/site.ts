@@ -37,7 +37,7 @@ export const todayLine =
   "Today I advise companies on marketing strategy, analytics, forecasting, and AI-enabled solutions.";
 
 export const featuredWorkIntro =
-  "These projects span marketing, healthcare, retail, education, and more, but they all reflect the same mindset: combining strategy, analytics, and technology to turn complex problems into practical, measurable solutions.";
+  "These featured projects span marketing, healthcare, retail, education, and more, but they all reflect the same mindset: combining strategy, analytics, and technology to turn complex problems into practical, measurable solutions.";
 
 export const aboutContent = {
   intro: [
@@ -47,12 +47,12 @@ export const aboutContent = {
   ],
 };
 
-export const productLabProjects = [
+export const productSandboxProjects = [
   {
     title: "SpellQuest",
     slug: "spellquest",
     url: "https://spellquest-french.ai.studio/",
-    image: "/product-lab/spellquest.png",
+    image: "/product-sandbox/spellquest.png",
     imageAlt: "SpellQuest French grammar learning app with gamified repair spell interface",
     summary:
       "An interactive learning application that teaches French spelling through progressive discovery, gamification, and immediate feedback.",
@@ -63,7 +63,7 @@ export const productLabProjects = [
     title: "Groundwork",
     slug: "groundwork",
     url: "https://groundwork-omega-flax.vercel.app/",
-    image: "/product-lab/groundwork.png",
+    image: "/product-sandbox/groundwork.png",
     imageAlt: "Groundwork summer programs explorer with filters and program comparison cards",
     summary:
       "An AI-assisted prototype that organizes educational options into a structured decision-making experience rather than a traditional directory.",
@@ -75,7 +75,7 @@ export const productLabProjects = [
 export const navLinks = [
   { href: "/work", label: "Work" },
   { href: "/about", label: "About" },
-  { href: "/product-lab", label: "Product Lab" },
+  { href: "/product-sandbox", label: "Product Sandbox" },
 ] as const;
 
 export function contactMailto(subject = "Consulting inquiry") {
