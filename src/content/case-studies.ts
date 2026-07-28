@@ -16,7 +16,7 @@ export type CaseStudy = {
 export const caseStudies: CaseStudy[] = [
   {
     slug: "ai-marketing-reporting-copilot",
-    title: "AI-Based Marketing Reporting",
+    title: "AI-Powered Marketing Insights",
     categories: ["Client Work", "AI", "Marketing Analytics", "E-Commerce"],
     problem:
       "Marketing performance data lived across Google Analytics and Meta. Weekly reporting required manual exports, spreadsheet merges, and hours of analysis before insights could be shared with leadership.",
