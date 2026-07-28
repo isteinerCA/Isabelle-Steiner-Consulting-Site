@@ -173,6 +173,7 @@ button:focus-visible,
   justify-content: center;
   overflow: hidden;
   background-color: var(--color-cream-dark);
+  border: 1px solid var(--color-border);
 }
 
 .cover-tile::after {
