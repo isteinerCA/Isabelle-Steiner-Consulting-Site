@@ -64,7 +64,7 @@ export default function ProductSandboxPage() {
       <div className="mt-16">
         <ContactSection
           heading="Building something similar?"
-          description="I help companies prototype AI-enabled tools quickly—then iterate based on real usage. Happy to talk through what you're exploring."
+          description="I help companies prototype AI-enabled tools quickly and then iterate based on real usage. Happy to talk through what you're exploring."
         />
       </div>
     </div>
