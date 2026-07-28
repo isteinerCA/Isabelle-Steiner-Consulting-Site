@@ -38,20 +38,19 @@ export const caseStudies: CaseStudy[] = [
       "Weekly campaign analysis report showing a landing page insights table broken out by channel (Meta, TikTok, Google PMax) with impressions, sessions, top page, and engagement",
   },
   {
-    slug: "marketing-forecasting-framework",
-    title: "Marketing Forecasting Framework",
-    categories: ["Client Work", "Analytics", "Healthcare"],
+    slug: "telehealth-growth",
+    title: "From Zero to 3× Growth",
+    categories: ["Client Work", "Startup", "Healthcare"],
     problem:
-      "Leadership lacked a reliable way to translate marketing performance into patient exam forecasts.",
+      "A telehealth startup needed to establish digital customer acquisition from scratch.",
     approach:
-      "Developed a forecasting model connecting channel-level marketing activity to downstream business outcomes, enabling planning at a much more granular level.",
-    outcome:
-      "Improved visibility into growth opportunities and provided a framework for more informed marketing investment decisions.",
-    skills: ["Forecasting", "Analytics", "Measurement", "Executive Strategy"],
+      "Built the digital marketing foundation, launched acquisition programs, and established measurement frameworks for rapid iteration.",
+    outcome: "Enabled three consecutive quarters of 3× growth.",
+    skills: ["Startup Growth", "Acquisition", "Analytics", "Go-to-Market"],
     featured: true,
-    coverImage: "/case-studies/marketing-forecasting-framework.png",
+    coverImage: "/case-studies/telehealth-growth.png",
     coverImageAlt:
-      "Spreadsheet screenshot of the appointment forecast model with monthly rows and channel contribution columns",
+      "Project setup checklist showing completed foundational tasks alongside a quarterly growth dashboard widget with bars compounding 3x each quarter",
   },
   {
     slug: "baby-brand-growth",
@@ -75,6 +74,38 @@ export const caseStudies: CaseStudy[] = [
       "Kanban-style project board tracking TikTok, Reddit, paid search, and new product launch across Test, Optimize, and Scale columns",
   },
   {
+    slug: "groundwork",
+    title: "Groundwork",
+    categories: ["Product Sandbox", "AI", "Education"],
+    problem:
+      "Families researching educational opportunities often struggle to compare programs across many dimensions and make informed decisions.",
+    approach:
+      "Designed and built an AI-assisted prototype that organizes educational options into a structured decision-making experience rather than a traditional directory.",
+    outcome:
+      "Launched online tool to make educational program discovery more efficient and more transparent.",
+    skills: ["Product Strategy", "UX", "AI", "Education"],
+    externalUrl: "https://groundwork-omega-flax.vercel.app/",
+    coverImage: "/product-sandbox/groundwork.png",
+    coverImageAlt:
+      "Groundwork summer programs explorer with filters and program comparison cards",
+  },
+  {
+    slug: "marketing-forecasting-framework",
+    title: "Marketing Forecasting Framework",
+    categories: ["Client Work", "Analytics", "Healthcare"],
+    problem:
+      "Leadership lacked a reliable way to translate marketing performance into patient exam forecasts.",
+    approach:
+      "Developed a forecasting model connecting channel-level marketing activity to downstream business outcomes, enabling planning at a much more granular level.",
+    outcome:
+      "Improved visibility into growth opportunities and provided a framework for more informed marketing investment decisions.",
+    skills: ["Forecasting", "Analytics", "Measurement", "Executive Strategy"],
+    featured: true,
+    coverImage: "/case-studies/marketing-forecasting-framework.png",
+    coverImageAlt:
+      "Spreadsheet screenshot of the appointment forecast model with monthly rows and channel contribution columns",
+  },
+  {
     slug: "spellquest",
     title: "SpellQuest",
     categories: ["Product Sandbox", "AI", "Education"],
@@ -95,37 +126,6 @@ export const caseStudies: CaseStudy[] = [
     coverImage: "/product-sandbox/spellquest.png",
     coverImageAlt:
       "SpellQuest French grammar learning app with gamified repair spell interface",
-  },
-  {
-    slug: "groundwork",
-    title: "Groundwork",
-    categories: ["Product Sandbox", "AI", "Education"],
-    problem:
-      "Families researching educational opportunities often struggle to compare programs across many dimensions and make informed decisions.",
-    approach:
-      "Designed and built an AI-assisted prototype that organizes educational options into a structured decision-making experience rather than a traditional directory.",
-    outcome:
-      "Launched online tool to make educational program discovery more efficient and more transparent.",
-    skills: ["Product Strategy", "UX", "AI", "Education"],
-    externalUrl: "https://groundwork-omega-flax.vercel.app/",
-    coverImage: "/product-sandbox/groundwork.png",
-    coverImageAlt:
-      "Groundwork summer programs explorer with filters and program comparison cards",
-  },
-  {
-    slug: "telehealth-growth",
-    title: "From Zero to 3× Growth",
-    categories: ["Client Work", "Startup", "Healthcare"],
-    problem:
-      "A telehealth startup needed to establish digital customer acquisition from scratch.",
-    approach:
-      "Built the digital marketing foundation, launched acquisition programs, and established measurement frameworks for rapid iteration.",
-    outcome: "Enabled three consecutive quarters of 3× growth.",
-    skills: ["Startup Growth", "Acquisition", "Analytics", "Go-to-Market"],
-    featured: true,
-    coverImage: "/case-studies/telehealth-growth.png",
-    coverImageAlt:
-      "Project setup checklist showing completed foundational tasks alongside a quarterly growth dashboard widget with bars compounding 3x each quarter",
   },
   {
     slug: "interim-executive-leadership",
