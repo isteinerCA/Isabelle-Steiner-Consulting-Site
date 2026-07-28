@@ -75,7 +75,7 @@ export const productSandboxProjects = [
 export const navLinks = [
   { href: "/work", label: "Work" },
   { href: "/about", label: "About" },
-  { href: "/product-sandbox", label: "Product Sandbox" },
+  { href: "/product-sandbox", label: "Sandbox" },
 ] as const;
 
 export function contactMailto(subject = "Consulting inquiry") {

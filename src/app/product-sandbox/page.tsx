@@ -5,14 +5,14 @@ import { ContactSection } from "@/components/contact-section";
 import { productSandboxProjects, site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Product Sandbox",
+  title: "Sandbox",
   description: `Product prototypes and experiments from ${site.name}.`,
 };
 
 export default function ProductSandboxPage() {
   return (
     <div className="mx-auto max-w-5xl px-6 py-14 sm:py-20">
-      <p className="section-label mb-4">Product Sandbox</p>
+      <p className="section-label mb-4">Sandbox</p>
       <h1 className="mb-4 max-w-2xl text-4xl">Projects I am exploring</h1>
       <p className="mb-12 max-w-2xl text-[var(--color-ink-muted)]">
         Side projects where I combine product design, AI-assisted development,

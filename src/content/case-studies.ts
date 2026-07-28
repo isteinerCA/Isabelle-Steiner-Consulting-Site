@@ -16,7 +16,7 @@ export type CaseStudy = {
 export const caseStudies: CaseStudy[] = [
   {
     slug: "ai-marketing-reporting-copilot",
-    title: "AI Marketing Reporting Copilot",
+    title: "AI-Based Marketing Reporting",
     categories: ["Client Work", "AI", "Marketing Analytics", "E-Commerce"],
     problem:
       "Marketing performance data lived across Google Analytics and Meta. Weekly reporting required manual exports, spreadsheet merges, and hours of analysis before insights could be shared with leadership.",
@@ -76,7 +76,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "groundwork",
     title: "Groundwork",
-    categories: ["Product Sandbox", "AI", "Education"],
+    categories: ["Sandbox", "AI", "Education"],
     problem:
       "Families researching educational opportunities often struggle to compare programs across many dimensions and make informed decisions.",
     approach:
@@ -108,7 +108,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "spellquest",
     title: "SpellQuest",
-    categories: ["Product Sandbox", "AI", "Education"],
+    categories: ["Sandbox", "AI", "Education"],
     problem:
       "Learning French spelling requires mastering grammatical rules that are complex, interconnected, and rarely taught systematically. Practicing these rules is often repetitive and frustrating. I set out to create a more engaging and structured way to learn them.",
     approach:

@@ -17,7 +17,7 @@ export type TagColorKey =
 const tagColorMap: Record<string, TagColorKey> = {
   // Engagement type
   "Client Work": "blue",
-  "Product Sandbox": "indigo",
+  Sandbox: "indigo",
   Leadership: "slate",
   Startup: "coral",
 
