@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CaseStudyCard } from "@/components/case-study-card";
+import { ContactSection } from "@/components/contact-section";
 import { caseStudies } from "@/content/case-studies";
 import { featuredWorkIntro, site } from "@/lib/site";
 
@@ -22,6 +23,10 @@ export default function WorkPage() {
         {caseStudies.map((study) => (
           <CaseStudyCard key={study.slug} study={study} />
         ))}
+      </div>
+
+      <div className="mt-16">
+        <ContactSection />
       </div>
     </div>
   );
