@@ -15,7 +15,7 @@ export function ContactSection({
     <section
       className={`rounded-[var(--radius-lg)] border border-[var(--color-border)] bg-[var(--color-surface)] px-6 py-10 sm:px-10 ${className}`}
     >
-      <p className="section-label mb-3">Contact</p>
+      <p className="section-label mb-3">Connect</p>
       <h2 className="mb-3 text-3xl">{heading}</h2>
       <p className="mb-8 max-w-xl text-[var(--color-ink-muted)]">{description}</p>
       <div className="flex flex-wrap gap-3">

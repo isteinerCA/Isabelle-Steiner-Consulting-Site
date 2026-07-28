@@ -20,13 +20,13 @@ export const pillars = [
     title: "Optimize",
     audience: "For growing companies",
     description:
-      "Forecasting, analytics, experimentation, and scaling.",
+      "Improving measurement, forecasting, experimentation and performance.",
   },
   {
     title: "Invent",
     audience: "Using AI",
     description:
-      "Rapid prototypes, workflow automation, and new product ideas.",
+      "Exploring AI-powered tools, workflows and educational products.",
   },
 ] as const;
 

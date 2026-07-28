@@ -43,7 +43,7 @@ export default function HomePage() {
         <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div className="max-w-2xl">
             <p className="section-label mb-3">Featured work</p>
-            <h2 className="mb-4 text-3xl">Strategy, analytics, and technology</h2>
+            <h2 className="mb-4 text-3xl">Solving problems</h2>
             <p className="text-[var(--color-ink-muted)]">{featuredWorkIntro}</p>
           </div>
           <Link
