@@ -16,14 +16,14 @@ export type CaseStudy = {
 export const caseStudies: CaseStudy[] = [
   {
     slug: "ai-marketing-reporting-copilot",
-    title: "AI-Powered Marketing Insights",
+    title: "AI Marketing Insights",
     categories: ["Client Work", "AI", "Marketing Analytics", "E-Commerce"],
     problem:
-      "Marketing performance data lived across Google Analytics and Meta. Weekly reporting required manual exports, spreadsheet merges, and hours of analysis before insights could be shared with leadership.",
+      "Marketing campaign and landing page data existed in separate systems with no reliable way to connect them, to help understand how campaign traffic behaved after arriving on the website. Weekly reporting relied on incomplete information and couldn't answer key performance questions.",
     approach:
-      "Built an automated workflow in Python that reconciles campaign structures across platforms, combines performance data into a single report, and uses an LLM to generate executive-ready weekly insights tailored to the client's marketing goals.",
+      "Designed and built an automated Python workflow that linked Google Analytics landing page engagement with Meta campaign performance by reconciling inconsistent campaign structures. The resulting dataset was then analyzed using AI to generate executive-ready marketing insights.",
     outcome:
-      "Reduced manual reporting, created a reusable reporting pipeline, and enabled faster, more consistent decision-making.",
+      "Created a new reporting capability that enabled richer performance analysis, improved insight quality, reduced manual reporting, and supported faster, more informed marketing decisions.",
     skills: [
       "Marketing Analytics",
       "AI",
@@ -42,9 +42,9 @@ export const caseStudies: CaseStudy[] = [
     title: "From Zero to 3× Growth",
     categories: ["Client Work", "Startup", "Healthcare"],
     problem:
-      "A telehealth startup needed to establish digital customer acquisition from scratch.",
+      "A telehealth startup needed to build customer acquisition from scratch while supporting aggressive growth goals.",
     approach:
-      "Built the digital marketing foundation, launched acquisition programs, and established measurement frameworks for rapid iteration.",
+      "Built the digital marketing foundation, launched acquisition programs, and established measurement systems for rapid experimentation and iteration.",
     outcome: "Enabled three consecutive quarters of 3× growth.",
     skills: ["Startup Growth", "Acquisition", "Analytics", "Go-to-Market"],
     featured: true,
@@ -57,11 +57,11 @@ export const caseStudies: CaseStudy[] = [
     title: "Scaling Growth for a Baby Brand",
     categories: ["Client Work", "Growth Strategy", "E-Commerce", "Baby Products"],
     problem:
-      "A rapidly growing consumer brand needed to expand marketing while maintaining efficiency across an increasingly complex portfolio.",
+      "Rapid growth across marketing channels and product lines made performance increasingly complex to measure, optimize, and scale efficiently.",
     approach:
-      "Optimized acquisition across the full funnel, introduced incrementality testing, supported expansion into new product categories, and built forecasting models for annual and quarterly planning.",
+      "Optimized acquisition across the full funnel, introduced incrementality testing, expanded into new product categories, and built annual and quarterly forecasting models.",
     outcome:
-      "Established a more rigorous measurement framework and supported sustainable growth across marketing investments.",
+      "Created a stronger measurement framework that supported more efficient and sustainable growth.",
     skills: [
       "Growth Strategy",
       "Incrementality",
@@ -78,11 +78,11 @@ export const caseStudies: CaseStudy[] = [
     title: "Groundwork",
     categories: ["Sandbox", "AI", "Education"],
     problem:
-      "Families researching educational opportunities often struggle to compare programs across many dimensions and make informed decisions.",
+      "Families looking for summer educational opportunities often struggle to find the right programs, evaluate pros/cons across dozens of factors and make confident decisions.",
     approach:
-      "Designed and built an AI-assisted prototype that organizes educational options into a structured decision-making experience rather than a traditional directory.",
+      "Designed and built an AI-assisted product that transforms scattered program information into a structured decision-making experience.",
     outcome:
-      "Launched online tool to make educational program discovery more efficient and more transparent.",
+      "Created a solution that makes educational program discovery faster, more transparent, and easier to navigate.",
     skills: ["Product Strategy", "UX", "AI", "Education"],
     externalUrl: "https://groundwork-omega-flax.vercel.app/",
     coverImage: "/product-sandbox/groundwork.png",
@@ -94,11 +94,11 @@ export const caseStudies: CaseStudy[] = [
     title: "Marketing Forecasting Framework",
     categories: ["Client Work", "Analytics", "Healthcare"],
     problem:
-      "Leadership lacked a reliable way to translate marketing performance into patient exam forecasts.",
+      "Long appointment lead times made it difficult to translate marketing performance into reliable business forecasts.",
     approach:
-      "Developed a forecasting model connecting channel-level marketing activity to downstream business outcomes, enabling planning at a much more granular level.",
+      "Developed a forecasting model connecting channel-level marketing activity to downstream business outcomes, enabling much more granular planning.",
     outcome:
-      "Improved visibility into growth opportunities and provided a framework for more informed marketing investment decisions.",
+      "Provided leadership with a practical framework for forecasting growth and making more informed marketing investment decisions.",
     skills: ["Forecasting", "Analytics", "Measurement", "Executive Strategy"],
     featured: true,
     coverImage: "/case-studies/marketing-forecasting-framework.png",
@@ -110,11 +110,11 @@ export const caseStudies: CaseStudy[] = [
     title: "SpellQuest",
     categories: ["Sandbox", "AI", "Education"],
     problem:
-      "Learning French spelling requires mastering grammatical rules that are complex, interconnected, and rarely taught systematically. Practicing these rules is often repetitive and frustrating. I set out to create a more engaging and structured way to learn them.",
+      "Learning French spelling requires mastering interconnected grammar rules that are rarely taught systematically and are often frustrating to practice.",
     approach:
-      "Designed and built an interactive learning application using AI-assisted development that teaches spelling through progressive discovery, gamification, and immediate feedback.",
+      "Designed and built an interactive learning application using AI-assisted development, progressive discovery, gamification, and immediate feedback.",
     outcome:
-      "Created a fully functional website that allows learners to master French grammar rules in a fun and motivating environment.",
+      "Created a fully functional learning platform that makes mastering French spelling more engaging and intuitive.",
     skills: [
       "Product Design",
       "AI",
@@ -132,11 +132,11 @@ export const caseStudies: CaseStudy[] = [
     title: "Interim Executive Leadership",
     categories: ["Leadership", "E-Commerce"],
     problem:
-      "Three companies needed experienced executive marketing leadership during maternity leaves while maintaining business momentum.",
+      "Companies needed experienced executive marketing leadership during critical transition periods (maternity leave replacements) without losing momentum.",
     approach:
-      "Stepped into VP and Head of Growth roles, leading teams, improving reporting, guiding CRM strategy, forecasting demand, and supporting executive decision-making.",
+      "Stepped into VP and Head of Growth roles, leading teams, strengthening reporting, guiding channel strategy, improving forecasting, and supporting executive decision-making.",
     outcome:
-      "Maintained continuity while introducing stronger measurement and strategic planning processes.",
+      "Maintained business continuity while leaving behind stronger measurement, planning, and operating processes.",
     coverImage: "/case-studies/interim-executive-leadership.png",
     coverImageAlt:
       "Internal team tool showing a growth team org chart alongside a demand forecast widget and weekly leadership cadence",
