@@ -47,7 +47,7 @@ export function CaseStudyCard({ study }: CaseStudyCardProps) {
         )}
       </Link>
       <p className="mb-6 flex-1 text-sm text-[var(--color-ink-muted)]">
-        {study.problem}
+        {study.cardExcerpt ?? study.problem}
       </p>
       <Link
         href={`/work/${study.slug}`}

@@ -8,6 +8,8 @@ export type CaseStudy = {
   skills: string[];
   featured?: boolean;
   externalUrl?: string;
+  /** Shorter excerpt for the card tile, when the full problem statement is too long. */
+  cardExcerpt?: string;
   /** Real product screenshot, when available. Falls back to a generated cover otherwise. */
   coverImage?: string;
   coverImageAlt?: string;
@@ -20,6 +22,8 @@ export const caseStudies: CaseStudy[] = [
     categories: ["Client Work", "AI", "Marketing Analytics", "E-Commerce"],
     problem:
       "Marketing campaign and landing page data existed in separate systems with no reliable way to connect them, to help understand how campaign traffic behaved after arriving on the website. Weekly reporting relied on incomplete information and couldn't answer key performance questions.",
+    cardExcerpt:
+      "Marketing campaign and landing page data existed in separate systems with no reliable way to connect them, to help understand how campaign traffic behaved after arriving on the website.",
     approach:
       "Designed and built an automated Python workflow that linked Google Analytics landing page engagement with Meta campaign performance by reconciling inconsistent campaign structures. The resulting dataset was then analyzed using AI to generate executive-ready marketing insights.",
     outcome:
@@ -132,7 +136,7 @@ export const caseStudies: CaseStudy[] = [
     title: "Interim Executive Leadership",
     categories: ["Leadership", "E-Commerce"],
     problem:
-      "Companies needed experienced executive marketing leadership during critical transition periods (maternity leave replacements) without losing momentum.",
+      "Companies needed experienced executive marketing leadership during critical transition periods (maternity leave) without losing momentum.",
     approach:
       "Stepped into VP and Head of Growth roles, leading teams, strengthening reporting, guiding channel strategy, improving forecasting, and supporting executive decision-making.",
     outcome:
