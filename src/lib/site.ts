@@ -41,9 +41,8 @@ export const featuredWorkIntro =
 
 export const aboutContent = {
   intro: [
-    "I've spent my career helping companies grow—from launching marketing channels at Walmart to scaling Tiny Prints, leading retention at Shutterfly, and advising startups as an independent consultant.",
-    "What I enjoy most is solving complex business problems.",
-    "Sometimes that means improving marketing strategy. Sometimes it means building better forecasting models. Increasingly, it means designing AI-powered tools that help people work smarter or learn more effectively.",
+    "I've spent my career helping companies solve growth and strategy challenges, from launching marketing channels at Walmart to leading retention at Shutterfly and, over the past decade as a consultant, advising more than 30 companies across industries and growth stages. Seeing so many different businesses has given me a broad perspective and exposed me to a wide variety of challenges and solutions.",
+    "Most of my work has focused on marketing strategy, forecasting, analytics, and building high-performing teams. More recently, I've been applying the same approach to designing AI-powered tools that help people work smarter or learn more effectively.",
   ],
 };
 

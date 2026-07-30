@@ -45,7 +45,7 @@ export default function AboutPage() {
 
       <div className="mt-16">
         <ContactSection
-          heading="Interested in working together?"
+          heading="Ready to move your business forward?"
           description="Whether you need strategic guidance, better measurement, or help prototyping AI-enabled solutions, reach out and we can explore whether there's a fit."
         />
       </div>
