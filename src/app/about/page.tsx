@@ -19,6 +19,7 @@ export default function AboutPage() {
             fill
             className="object-cover"
             sizes="240px"
+            quality={90}
             priority
           />
         </div>
