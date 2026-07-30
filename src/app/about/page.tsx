@@ -46,7 +46,7 @@ export default function AboutPage() {
       <div className="mt-16">
         <ContactSection
           heading="Ready to move your business forward?"
-          description="Whether you need strategic guidance, better measurement, or help prototyping AI-enabled solutions, reach out and we can explore whether there's a fit."
+          description="Whether you need strategic guidance, better measurement, or help prototyping AI-enabled solutions, let's talk about your goals and how I can help."
         />
       </div>
     </div>
