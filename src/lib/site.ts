@@ -30,11 +30,10 @@ export const pillars = [
   },
 ] as const;
 
-export const credibilityLine =
-  "20+ years leading growth for Walmart, Tiny Prints, Shutterfly, and high-growth startups.";
-
-export const todayLine =
-  "Today I advise companies on marketing strategy, analytics, forecasting, and AI-enabled solutions.";
+export const heroIntro = [
+  "I help companies solve growth and strategy challenges through marketing, analytics, forecasting, and increasingly, practical applications of AI.",
+  "20+ years helping companies grow, from launching marketing channels at Walmart.com to leading retention at Shutterfly and advising more than 30 companies as an independent consultant.",
+];
 
 export const featuredWorkIntro =
   "These featured projects span marketing, healthcare, retail, education, and more, but they all reflect the same mindset: combining strategy, analytics, and technology to turn complex problems into practical, measurable solutions.";

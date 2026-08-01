@@ -1,13 +1,13 @@
+import Image from "next/image";
 import Link from "next/link";
 import { CaseStudyCard } from "@/components/case-study-card";
 import { ContactSection } from "@/components/contact-section";
 import { getFeaturedCaseStudies } from "@/content/case-studies";
 import {
-  credibilityLine,
   featuredWorkIntro,
+  heroIntro,
   pillars,
   site,
-  todayLine,
 } from "@/lib/site";
 
 export default function HomePage() {
@@ -15,13 +15,30 @@ export default function HomePage() {
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-14 sm:py-20">
-      <section className="mb-20 max-w-3xl">
+      <section className="mb-12 max-w-3xl">
         <p className="section-label mb-4">{site.title}</p>
-        <h1 className="mb-6 text-4xl sm:text-5xl">{site.tagline}</h1>
-        <p className="mb-4 text-lg text-[var(--color-ink-muted)]">
-          {credibilityLine}
-        </p>
-        <p className="text-lg text-[var(--color-ink-muted)]">{todayLine}</p>
+        <h1 className="text-4xl sm:text-5xl">{site.tagline}</h1>
+      </section>
+
+      <section className="mb-20">
+        <div className="grid gap-8 sm:grid-cols-[220px_1fr] sm:items-center sm:gap-12">
+          <div className="relative aspect-square w-full max-w-[220px] overflow-hidden rounded-[var(--radius-lg)]">
+            <Image
+              src="/about/isabelle-steiner.jpg"
+              alt={site.name}
+              fill
+              className="object-cover"
+              sizes="220px"
+              quality={90}
+              priority
+            />
+          </div>
+          <div className="space-y-4 text-lg text-[var(--color-ink-muted)]">
+            {heroIntro.map((paragraph) => (
+              <p key={paragraph.slice(0, 32)}>{paragraph}</p>
+            ))}
+          </div>
+        </div>
       </section>
 
       <section className="mb-20">
