@@ -34,26 +34,25 @@ export default function HomePage() {
               priority
             />
           </div>
-          <div className="space-y-4 text-lg text-[var(--color-ink-muted)]">
-            {heroIntro.map((paragraph) => (
-              <p key={paragraph.slice(0, 32)}>{paragraph}</p>
-            ))}
+          <div>
+            <div className="space-y-4 text-lg text-[var(--color-ink-muted)]">
+              {heroIntro.map((paragraph) => (
+                <p key={paragraph.slice(0, 32)}>{paragraph}</p>
+              ))}
+            </div>
+            <div className="mt-6 flex flex-wrap items-center gap-4">
+              {clientLogos.map((logo) => (
+                <Image
+                  key={logo.name}
+                  src={logo.src}
+                  alt={logo.name}
+                  width={logo.width}
+                  height={logo.height}
+                  className="h-8 w-8 rounded-md object-contain opacity-90 sm:h-9 sm:w-9"
+                />
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
-
-      <section className="mb-20">
-        <div className="flex flex-wrap items-center justify-between gap-x-8 gap-y-6">
-          {clientLogos.map((logo) => (
-            <Image
-              key={logo.name}
-              src={logo.src}
-              alt={logo.name}
-              width={logo.width}
-              height={logo.height}
-              className="h-10 w-10 rounded-md object-contain opacity-90 sm:h-12 sm:w-12"
-            />
-          ))}
         </div>
       </section>
 
