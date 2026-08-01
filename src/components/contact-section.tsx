@@ -1,3 +1,4 @@
+import { GitHubIcon, LinkedInIcon, MailIcon } from "@/components/icons";
 import { contactMailto, site } from "@/lib/site";
 
 type ContactSectionProps = {
@@ -19,16 +20,33 @@ export function ContactSection({
       <h2 className="mb-3 text-3xl">{heading}</h2>
       <p className="mb-8 max-w-xl text-[var(--color-ink-muted)]">{description}</p>
       <div className="flex flex-wrap gap-3">
-        <a href={contactMailto()} className="btn-primary no-underline">
-          Send an email
+        <a
+          href={contactMailto()}
+          aria-label="Send an email"
+          title="Send an email"
+          className="icon-btn"
+        >
+          <MailIcon />
         </a>
         <a
           href={site.linkedInUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn-secondary no-underline"
+          aria-label="Connect on LinkedIn"
+          title="Connect on LinkedIn"
+          className="icon-btn"
         >
-          Connect on LinkedIn
+          <LinkedInIcon />
+        </a>
+        <a
+          href={site.githubUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View GitHub profile"
+          title="View GitHub profile"
+          className="icon-btn"
+        >
+          <GitHubIcon />
         </a>
       </div>
     </section>

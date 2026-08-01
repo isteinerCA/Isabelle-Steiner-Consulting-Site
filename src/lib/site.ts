@@ -5,6 +5,7 @@ export const site = {
   domain: "isabellesteiner.com",
   contactEmail: "isabelle@isabelles.net",
   linkedInUrl: "https://www.linkedin.com/in/isabelle-steiner-26b3522/",
+  githubUrl: "https://github.com/isteinerCA",
   description:
     "Senior Growth & Strategy Advisor combining executive marketing experience with AI-enabled problem solving and rapid product prototyping.",
 } as const;
