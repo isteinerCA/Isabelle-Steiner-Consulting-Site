@@ -42,7 +42,7 @@ export const clientLogos = [
 
 export const heroIntro = [
   "I help companies solve growth and strategy challenges through marketing, analytics, forecasting, and increasingly, practical applications of AI.",
-  "20+ years helping companies grow, from launching marketing channels at Walmart.com to leading retention at Shutterfly and advising more than 30 companies as an independent consultant.",
+  "20+ years helping companies grow, from launching marketing channels at Walmart.com to leading retention at Shutterfly and advising more than 30 companies across industries as an independent consultant.",
 ];
 
 export const featuredWorkIntro =

@@ -41,6 +41,9 @@ export default function HomePage() {
               ))}
             </div>
             <div className="mt-6 flex flex-wrap items-center gap-4">
+              <span className="shrink-0 text-sm font-medium text-[var(--color-ink-muted)]">
+                Selected companies
+              </span>
               {clientLogos.map((logo) => (
                 <Image
                   key={logo.name}
