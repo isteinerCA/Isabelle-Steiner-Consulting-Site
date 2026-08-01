@@ -4,6 +4,7 @@ import { CaseStudyCard } from "@/components/case-study-card";
 import { ContactSection } from "@/components/contact-section";
 import { getFeaturedCaseStudies } from "@/content/case-studies";
 import {
+  clientLogos,
   featuredWorkIntro,
   heroIntro,
   pillars,
@@ -38,6 +39,21 @@ export default function HomePage() {
               <p key={paragraph.slice(0, 32)}>{paragraph}</p>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="mb-20">
+        <div className="flex flex-wrap items-center justify-between gap-x-8 gap-y-6">
+          {clientLogos.map((logo) => (
+            <Image
+              key={logo.name}
+              src={logo.src}
+              alt={logo.name}
+              width={logo.width}
+              height={logo.height}
+              className="h-10 w-10 rounded-md object-contain opacity-90 sm:h-12 sm:w-12"
+            />
+          ))}
         </div>
       </section>
 

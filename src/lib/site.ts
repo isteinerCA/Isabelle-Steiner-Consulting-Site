@@ -30,6 +30,15 @@ export const pillars = [
   },
 ] as const;
 
+export const clientLogos = [
+  { name: "Walmart", src: "/logos/walmart.png", width: 540, height: 540 },
+  { name: "Shutterfly", src: "/logos/shutterfly.png", width: 150, height: 150 },
+  { name: "Willow", src: "/logos/willow.png", width: 150, height: 150 },
+  { name: "Midi", src: "/logos/midi.png", width: 150, height: 150 },
+  { name: "Halo", src: "/logos/halo.png", width: 150, height: 150 },
+  { name: "Ramy Brook", src: "/logos/ramy-brook.png", width: 150, height: 150 },
+] as const;
+
 export const heroIntro = [
   "I help companies solve growth and strategy challenges through marketing, analytics, forecasting, and increasingly, practical applications of AI.",
   "20+ years helping companies grow, from launching marketing channels at Walmart.com to leading retention at Shutterfly and advising more than 30 companies as an independent consultant.",
